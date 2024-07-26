@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice C with 11 Levels</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Practice C [BASIC - ADVANCE]</h1>
+    </header>
+    <main>
+        <section class="level level-1">
+            <h2>Level 1: Easy</h2>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to calculate perimeter of rectangle.Take sides, a & b, from the user.')">Question 1</button>
+            <button class="question-button" onclick="showQuestion(this, 'Take a number(n) from user & output its cube(n*n*n).')">Question 2</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write comments for programs a & b.')">Question 3</button>
+        </section>
+        <section class="level level-2">
+            <h2>Level 2</h2>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to print the average of 3 numbers.')">Question 1</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to check if given character is digit or not.')">Question 2</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to print the smallest number of two.')">Question 3</button>
+        </section>
+        <section class="level level-3">
+            <h2>Level 3</h2>
+            <button class="question-button" onclick="showQuestion(this, ' Write a program to check if a given number is Armstrong number or not. b. Write a program to check if the given number is a natural number.   (Natural numbers start from 1 ). Also search what is Armstrong number')">Question 1</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to check if the given number is a natural number.(Natural numbers start from 1)')">Question 2</button>
+        </section>
+        <section class="level level-4">
+            <h2>Level 4</h2>
+            <button class="question-button" onclick="showQuestion(this, 'Search on what a nested loop is & print this pattern shown below:', 'https://i.imgur.com/Z18Zcrl.png')">Question 1</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to check if a number is prime or not.')">Question 2</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to print prime numbers in a range.')">Question 3</button>
+        </section>
+        <section class="level level-5">
+            <h2>Level 5</h2>
+            <button class="question-button" onclick="showQuestion(this, 'Write a function to find sum of digits of a number.')">Question 1</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a function to find square root of a number.')">Question 2</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a function to print [Hot] or [Cold] depending on the temperature user enters.')">Question 3</button>
+            <button class="question-button" onclick="showQuestion(this, 'Make your own pow function.')">Question 4</button>
+        </section>
+        <section class="level level-6">
+            <h2>Level 6</h2>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program in C to find the maximum number between two numbers using a pointer')">Question 1</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program in C to print the elements of an array in reverse order.')">Question 2</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program in C to print all the letters in english alphabet using a pointer.')">Question 3</button>
+        </section>
+        <section class="level level-7">
+            <h2>Level 7</h2>
+            <button class="question-button" onclick="showQuestion(this, ' In an array of numbers, find how many times does a number [x] occurs.')">Question 1</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to print the largest number in an array.')">Question 2</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to insert an element at the end of an array.')">Question 3</button>
+        </section>
+        <section class="level level-8">
+            <h2>Level 8</h2>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to convert all lowercase vowels to uppercase in a string.')">Question 1</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to print the highest frequency character in a string.')">Question 2</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to remove blank spaces in a string')">Question 3</button>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to replace lowercase letters with uppercase & vice versa in a string.')">Question 4</button>
+        </section>
+        <section class="level level-9">
+            <h2>Level 9</h2>
+            <button class="question-button" onclick="showQuestion(this, 'Make a system that can store information of all students, teachers & staff of your college in the form of structures.')">Question 1</button>
+            <button class="question-button" onclick="showQuestion(this, 'Now make Level 9 Ques 1 into a C Project with other functionalities like cgpa calculation of students,storing attendance etc.')">Question 2</button>
+        </section>
+        <section class="level level-10">
+            <h2>Level 10</h2>
+            <button class="question-button" onclick="showQuestion(this, 'Write a program to read a string from a file & output to the user')">Question 1</button>
+            <button class="question-button" onclick="showQuestion(this, 'Replace the data in file of Q(a) with the number of vowels in the string.')">Question 2</button>
+            <button class="question-button" onclick="showQuestion(this, 'Format the information of 5 students (name, marks, cgpa, course) in a table like structure in a file.')">Question 3</button>
+        </section>
+        <section class="level level-11">
+            <h2>Level 11: Hard</h2>
+            <button class="question-button" onclick="showQuestion(this, 'Search about what is a dangling pointer in C.')">Question 1</button>
+            <button class="question-button" onclick="showQuestion(this, 'Allocate memory for 500 integers using calloc & then store first 500 natural numbers in that space.')">Question 2</button>
+            <button class="question-button" onclick="showQuestion(this, '. Search about what is memory leak in C.')">Question 3</button>
+            <button class="question-button" onclick="showQuestion(this, 'Search & find out which is better malloc() or calloc ()')">Question 4</button>
+        </section>
+        <section class="answers"><button class="ans-btn" onclick="alert('Answers Will Be Availiable Soon')"><strong>Answers</strong>
+        </button></section>
+    </main>
+</body>
+</html>
